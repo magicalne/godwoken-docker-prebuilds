@@ -1,9 +1,9 @@
 SHELL := /bin/bash
 
 # components repos
-GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
+GODWOKEN_REPO := https://github.com/jjyr/godwoken.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/jjyr/godwoken-scripts.git
+POLYJUICE_REPO := https://github.com/jjyr/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts
 
 # components tags
