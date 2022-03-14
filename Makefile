@@ -7,9 +7,9 @@ POLYJUICE_REPO := https://github.com/jjyr/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts
 
 # components tags
-GODWOKEN_REF := feat-omni-rollup-cell-lock
-GODWOKEN_SCRIPTS_REF := compatibility-breaking-changes
-POLYJUICE_REF := compatibility-breaking-changes
+GODWOKEN_REF := refactor-sudt-with-registry-address
+GODWOKEN_SCRIPTS_REF := refactor-sudt-with-registry-address
+POLYJUICE_REF := refactor-registry-address
 OMNI_LOCK_REF := rc_lock
 
 define prepare_repo

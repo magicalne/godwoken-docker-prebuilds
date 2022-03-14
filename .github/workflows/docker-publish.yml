@@ -5,11 +5,7 @@ on:
   schedule:
   - cron: '22 */12 * * *'
   push:
-<<<<<<< HEAD
-    branches: [ main, 'v1.*' ]
-=======
     branches: [ main, 'docker-publish*', 'refactor-registry-address' ]
->>>>>>> 7537881 (refactor registry address branch)
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
