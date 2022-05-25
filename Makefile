@@ -3,13 +3,13 @@ SHELL := /bin/bash
 # components repos
 GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
+POLYJUICE_REPO := https://github.com/magicalne/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts.git
 
 # components tags
 GODWOKEN_REF := v1.1-rc # https://github.com/nervosnetwork/godwoken/releases/tag/v1.1.0-beta
 GODWOKEN_SCRIPTS_REF := v1.1.0-beta # https://github.com/nervosnetwork/godwoken-scripts/releases/tag/v1.1.0-beta
-POLYJUICE_REF := v1.1.5-beta # https://github.com/nervosnetwork/godwoken-polyjuice/releases/tag/v1.1.5-beta
+POLYJUICE_REF := receive_function # https://github.com/nervosnetwork/godwoken-polyjuice/releases/tag/v1.1.5-beta
 OMNI_LOCK_REF := rc_lock
 
 define prepare_repo
