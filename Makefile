@@ -7,8 +7,8 @@ POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts.git
 
 # components tags
-GODWOKEN_REF := v1.6.0 # https://github.com/nervosnetwork/godwoken/compare/v1.5.0...v1.6.0
-GODWOKEN_SCRIPTS_REF := v1.3.0-rc1 # https://github.com/nervosnetwork/godwoken-scripts/compare/v1.1.0-beta...v1.3.0-rc1
+GODWOKEN_REF := 968b5b33b7d6437ab74b4fc58427a88dad0d1b49 # https://github.com/nervosnetwork/godwoken/compare/v1.5.0...v1.6.0
+GODWOKEN_SCRIPTS_REF := master # https://github.com/nervosnetwork/godwoken-scripts/compare/v1.1.0-beta...v1.3.0-rc1
 POLYJUICE_REF := main # https://github.com/nervosnetwork/godwoken-polyjuice/compare/1.3.0...1.4.1
 OMNI_LOCK_REF := rc_lock
 
